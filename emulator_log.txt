@@ -1,0 +1,127 @@
+=== Запуск скрипта эмуляторов (VNC и SCRCPY) ===
+[INFO] Запускается контейнер: android-container-vnc-1
+       Образ: budtmo/docker-android:emulator_14.0
+       Устройство: Samsung Galaxy S10
+       Команда: docker run -d --name android-container-vnc-1 --gpus all --privileged --device /dev/kvm -p 4723:4723 -p 5554:5554 -p 5555:5555 -p 5900:5900 -p 6080:6080 -e EMULATOR_DEVICE='Samsung Galaxy S10' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_14.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+be4ddd500323af0289ee31a117c12e7f44e18af7173f61d0f5b1a5fa3d0e7561
+
+[SUCCESS] Контейнер android-container-vnc-1 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-2
+       Образ: budtmo/docker-android:emulator_13.0
+       Устройство: Samsung Galaxy S10
+       Команда: docker run -d --name android-container-vnc-2 --gpus all --privileged --device /dev/kvm -p 4724:4723 -p 5556:5554 -p 5557:5555 -p 5901:5900 -p 6081:6080 -e EMULATOR_DEVICE='Samsung Galaxy S10' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_13.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+2f737a279b4b7ebeb35413a12b39fe477aa990f051b559f0a11a949593625e26
+
+[SUCCESS] Контейнер android-container-vnc-2 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-3
+       Образ: budtmo/docker-android:emulator_12.0
+       Устройство: Samsung Galaxy S10
+       Команда: docker run -d --name android-container-vnc-3 --gpus all --privileged --device /dev/kvm -p 4725:4723 -p 5558:5554 -p 5559:5555 -p 5902:5900 -p 6082:6080 -e EMULATOR_DEVICE='Samsung Galaxy S10' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_12.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+f401305867293f46d0840926e7bff3359482589ede269130f7fc657677520efe
+
+[SUCCESS] Контейнер android-container-vnc-3 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-4
+       Образ: budtmo/docker-android:emulator_12.0
+       Устройство: Samsung Galaxy S10
+       Команда: docker run -d --name android-container-vnc-4 --gpus all --privileged --device /dev/kvm -p 4726:4723 -p 5560:5554 -p 5561:5555 -p 5903:5900 -p 6083:6080 -e EMULATOR_DEVICE='Samsung Galaxy S10' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_12.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+df81118c4808ab1f1aa39e19d30c713598be8506e3f90269219c2b33d1ebd313
+
+[SUCCESS] Контейнер android-container-vnc-4 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-5
+       Образ: budtmo/docker-android:emulator_10.0
+       Устройство: Samsung Galaxy S9
+       Команда: docker run -d --name android-container-vnc-5 --gpus all --privileged --device /dev/kvm -p 4727:4723 -p 5562:5554 -p 5563:5555 -p 5904:5900 -p 6084:6080 -e EMULATOR_DEVICE='Samsung Galaxy S9' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_10.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+1091a08e0d3e6ff74b5fc49c6ad8142c30dd61c5d193bf047d78f4e3724bdebf
+
+[SUCCESS] Контейнер android-container-vnc-5 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-6
+       Образ: budtmo/docker-android:emulator_14.0
+       Устройство: Samsung Galaxy S8
+       Команда: docker run -d --name android-container-vnc-6 --gpus all --privileged --device /dev/kvm -p 4728:4723 -p 5564:5554 -p 5565:5555 -p 5905:5900 -p 6085:6080 -e EMULATOR_DEVICE='Samsung Galaxy S8' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_14.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+acdee09278421eaf6110d459c4cf09b2c37667133e1f28dee1f9ec05cef91a36
+
+[SUCCESS] Контейнер android-container-vnc-6 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-7
+       Образ: budtmo/docker-android:emulator_14.0
+       Устройство: Samsung Galaxy S7 Edge
+       Команда: docker run -d --name android-container-vnc-7 --gpus all --privileged --device /dev/kvm -p 4729:4723 -p 5566:5554 -p 5567:5555 -p 5906:5900 -p 6086:6080 -e EMULATOR_DEVICE='Samsung Galaxy S7 Edge' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_14.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+cff347c80ee67b82a86d0fb50fe5a13f0b9a89b28ec74b61faa38a3cac70ea8a
+
+[SUCCESS] Контейнер android-container-vnc-7 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-8
+       Образ: budtmo/docker-android:emulator_14.0
+       Устройство: Nexus 7
+       Команда: docker run -d --name android-container-vnc-8 --gpus all --privileged --device /dev/kvm -p 4730:4723 -p 5568:5554 -p 5569:5555 -p 5907:5900 -p 6087:6080 -e EMULATOR_DEVICE='Nexus 7' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_14.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+0e0db066935a0fd5ac5392eec4c54ff4d41b631a5e70defa9181e2d1d6a12874
+
+[SUCCESS] Контейнер android-container-vnc-8 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-9
+       Образ: budtmo/docker-android:emulator_14.0
+       Устройство: Nexus 5
+       Команда: docker run -d --name android-container-vnc-9 --gpus all --privileged --device /dev/kvm -p 4731:4723 -p 5570:5554 -p 5571:5555 -p 5908:5900 -p 6088:6080 -e EMULATOR_DEVICE='Nexus 5' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_14.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+6f2fa4a16825ba15ffd76a282306cfc3f2cd5635df21dc35db0cfd47df09c4bd
+
+[SUCCESS] Контейнер android-container-vnc-9 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-10
+       Образ: budtmo/docker-android:emulator_14.0
+       Устройство: Nexus 4
+       Команда: docker run -d --name android-container-vnc-10 --gpus all --privileged --device /dev/kvm -p 4732:4723 -p 5572:5554 -p 5573:5555 -p 5909:5900 -p 6089:6080 -e EMULATOR_DEVICE='Nexus 4' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_14.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+0362e8225c8fc360c0c228b7d3e4fbe7901e28b87336ef39328110084dd52271
+
+[SUCCESS] Контейнер android-container-vnc-10 успешно запущен.
+[INFO] Запускается контейнер: android-container-vnc-11
+       Образ: budtmo/docker-android:emulator_14.0
+       Устройство: Nexus S
+       Команда: docker run -d --name android-container-vnc-11 --gpus all --privileged --device /dev/kvm -p 4733:4723 -p 5574:5554 -p 5575:5555 -p 5910:5900 -p 6090:6080 -e EMULATOR_DEVICE='Nexus S' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g budtmo/docker-android:emulator_14.0
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+7ad87a84bd66792ae06ce57aed9b23b68350e38f471d22ce690d02c16fb252f5
+
+[SUCCESS] Контейнер android-container-vnc-11 успешно запущен.
+[INFO] Запускается контейнер: android-container-scrcpy-12
+       Образ: halimqarroum/docker-android:api-33
+       Устройство: Android 33 (Без noVNC)
+       Команда: docker run -d --name android-container-scrcpy-12 --gpus all --privileged --device /dev/kvm -p 4734:4723 -p 5576:5554 -p 5577:5555 -p 5911:5900 -p 6091:6080 -e EMULATOR_DEVICE='Android 33 (Без noVNC)' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g halimqarroum/docker-android:api-33
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+e825419dd9be8fcec7099ddcc7f6730be424ac0f26b8aa08912bb1234b521284
+
+[SUCCESS] Контейнер android-container-scrcpy-12 успешно запущен.
+[INFO] Запускается контейнер: android-container-scrcpy-13
+       Образ: halimqarroum/docker-android:api-32
+       Устройство: Android 32 (Без noVNC)
+       Команда: docker run -d --name android-container-scrcpy-13 --gpus all --privileged --device /dev/kvm -p 4735:4723 -p 5578:5554 -p 5579:5555 -p 5912:5900 -p 6092:6080 -e EMULATOR_DEVICE='Android 32 (Без noVNC)' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g halimqarroum/docker-android:api-32
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+4af773cf8069e3e45019d96824105ca122a1f9e25f7f5dcc35d61062d0030cbe
+
+[SUCCESS] Контейнер android-container-scrcpy-13 успешно запущен.
+[INFO] Запускается контейнер: android-container-scrcpy-14
+       Образ: halimqarroum/docker-android:api-28
+       Устройство: Android 28 (Без noVNC)
+       Команда: docker run -d --name android-container-scrcpy-14 --gpus all --privileged --device /dev/kvm -p 4736:4723 -p 5580:5554 -p 5581:5555 -p 5913:5900 -p 6093:6080 -e EMULATOR_DEVICE='Android 28 (Без noVNC)' -e WEB_VNC=true -e APPIUM=true -e ANDROID_EMULATOR_USE_GPU=host --shm-size=2g halimqarroum/docker-android:api-28
+[DEBUG] Return code: 0
+[DEBUG] STDOUT:
+06e3d8053843f70b5cd3ae215fd4d9fac31f436fad08a139b461e455701d50a1
+
+[SUCCESS] Контейнер android-container-scrcpy-14 успешно запущен.

@@ -1,0 +1,16 @@
+[
+    {
+        "container": "android-container-vnc-1",
+        "cpu": "4.76%",
+        "memory": "5.127GiB / 125.6GiB",
+        "memory_percent": "4.08%",
+        "timestamp": "2025-01-20 00:10:07"
+    },
+    {
+        "container": "android-container-scrcpy-1",
+        "cpu": "0.00%",
+        "memory": "0B / 0B",
+        "memory_percent": "0.00%",
+        "timestamp": "2025-01-20 00:10:07"
+    }
+]

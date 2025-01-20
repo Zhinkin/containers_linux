@@ -1,0 +1,19 @@
+=== Лог запуска Ultimate Android Emulator ===
+[INFO] Удаление контейнера: ultimate-android-1
+[INFO] Запуск контейнера ultimate-android-1: docker run -it -d --name ultimate-android-1 --privileged -p 5900:5900 amrka/ultimate-android
+[SUCCESS] Контейнер ultimate-android-1 успешно запущен. VNC: 5900
+[INFO] Запуск команды: ./start_emu_headless.sh в контейнере ultimate-android-1
+[ERROR] Ошибка выполнения ./start_emu_headless.sh.
+STDOUT: * daemon not running; starting now at tcp:5037
+* daemon started successfully
+nohup: appending output to 'nohup.out'
+[0;32m==> [0;34mChecking device booting up status 🧐.. [0;32m<==[0m
+[0;32m==> [0;31madb: no devices/emulators found 😱 [0;32m<==[0m
+[0;32m==> [0;31madb: no devices/emulators found 😱 [0;32m<==[0m
+[0;32m==> [0;31madb: no devices/emulators found 😱 [0;32m<==[0m
+[0;32m==> [0;31madb: no devices/emulators found 😱 [0;32m<==[0m
+^C
+STDERR: 
+[INFO] Запуск команды: appium -p 5900 в контейнере ultimate-android-1
+[SUCCESS] Команда appium -p 5900 выполнена успешно.
+[INFO] Контейнер ultimate-android-1 готов к использованию. VNC: http://localhost:5900
