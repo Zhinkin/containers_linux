@@ -20,7 +20,7 @@ vnc_configs = [
         "device": "Samsung Galaxy S10"
     },
     {
-        "image": "budtmo/docker-android:emulator_12.0",
+        "image": "budtmo/docker-android:emulator_9.0",
         "device": "Samsung Galaxy S10"
     },
     {
@@ -151,7 +151,7 @@ def run_docker_container(image_name: str, device_name: str, index: int, group: s
     # Пишем результат в лог
     with open(log_file_path, "a", encoding="utf-8") as log_file:
         log_file.write(f"[DEBUG] Return code: {process_result.returncode}\n")
-        if process_result.stdout:
+        if process_result.stdout: 
             log_file.write(f"[DEBUG] STDOUT:\n{process_result.stdout}\n")
         if process_result.stderr:
             log_file.write(f"[DEBUG] STDERR:\n{process_result.stderr}\n")
